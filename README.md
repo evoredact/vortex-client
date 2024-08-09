@@ -4,6 +4,14 @@ This plugin is designed to enhance gameplay by providing a set of powerful featu
 
 **Note:** This plugin is currently in beta. All issues will be addressed in the full release, and functionality will be expanded.
 
+### Keybinds (Temporary)
+
+- Z - FakeLag (not working right now)
+- E - Fly Up
+- Q - Fly Down
+- X - RageAim + TriggerBot
+- C - LagFly
+
 ### Features
 
 - **RageAim + TriggerBot:** Automatically targets and fires at the nearest enemy, making it ideal for HvH situations where precision and speed are critical.
