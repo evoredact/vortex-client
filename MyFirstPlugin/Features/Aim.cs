@@ -27,7 +27,7 @@ internal class Aim : MonoBehaviour {
         "LeftLegDown", "LeftLegBoot"
     };
 
-    private void OnGUI()
+    void OnGUI()
     {
         if (!Plugin.IsRoundStarted || !enabled || Controll.pl == null || Controll.csCam == null || Controll.pl.currweapon == null)
             return;
@@ -192,7 +192,7 @@ internal class Aim : MonoBehaviour {
     //}
 
     void Update() {
-        if (Input.GetKeyDown(KeyCode.Mouse3)) {
+        if (Input.GetKeyDown(KeyCode.X)) {
             enabled = !enabled;
             Plugin.Log.LogWarning($"Aim State is now: {enabled}");
         }

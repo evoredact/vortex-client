@@ -9,7 +9,7 @@ internal class LagFly : MonoBehaviour {
 
     private void Update() {
         // maybe add if (Input.GetKey(KeyCode.Mouse4))?
-        if (Input.GetKeyDown(KeyCode.Mouse4)) {
+        if (Input.GetKeyDown(KeyCode.C)) {
             enabled = !enabled;
             if (enabled) {
                 Physics.gravity = Vector3.zero;
