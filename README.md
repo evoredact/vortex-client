@@ -22,3 +22,14 @@ This plugin is designed to enhance gameplay by providing a set of powerful featu
 - New players joining the game after you may not be detected by the plugin.
 - Currently, there is no GUI or advanced customization options available.
 - The plugin was developed quickly, similar to the game itself.
+
+## Installation
+
+Install latest Bepinex IL2Cpp 6.0.0 x86 build from this site: https://builds.bepinex.dev/projects/bepinex_be
+You can read instruction how to install but I'll make short guide:
+
+- Download build I mentioned before.
+- Insert all from zip archive into root game's folder.
+- Put BepInEx config file into BepInEx folder by it path BepInEx/config/BepInEx.cfg (you may need to create /config/ folder, config for BepInEx are inside project)
+- Launch game to init BepInEx.
+- Insert .dll plugin into BepInEx/plugins/
